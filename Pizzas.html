@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>Mississippi Pizza</title>
+        <meta name="description" content="This is a pizza restaurant">
+    </head>
+
+        <body>
+
+            <h1 id="pizza">Mississippi Pizza <img src="../images/delicious supreme.jpg" alt="delicious supreme" title="delicious supreme" width="400" height="200">Southern Style</h1>
+            <form action="../online pizza.html" method="post">
+                <h3><input type="radio" name="kind" value="Carryout">Carryout</h3>
+                <p><img src="../images/pickup.png" alt="person picking up pizza order" title="picking pizza" width="70" height="70">Pickup Name: <input type="text" name="First Name"></p>
+                <h3><input type="radio" name="kind" value="Delivery">Delivery</h3>
+                <p><img src="../images/delivery.png"alt="guy on a delivery mopad" title="delivery truck" width="70" height="70"> Delivery Address: <input type="text" name="address"></p>
+
+
+                <br>
+                <main>
+                    
+                    <fieldset id="field">
+                        <legend><span>PIZZA SIZES</span></legend>
+                        <input type="radio" name="Size" value="Small">Small
+                        <input type="radio" name= "Size" value="Medium" colspan="2">Medium
+                        <input type="radio" name="Size" value="Large" width="200">Large
+                        <br>
+                        <img src="../images/pizza sizes.jpg" alt="pizza sizes" title="pizza sizes" width="220" height="80">
+                    </fieldset>
+                    <p>Specialty Pizza</p>
+                    <input type="checkbox" name="Specialty Pizza" value="Ragin' Cajun">Ragin' Cajun Pizza
+                    <br>
+                    <input type="radio" name="topping" value="Cajun Anduillo Sausage">Cajun Anduillo Sausage
+                    <input type="radio" name="topping" value="Cajun Chicken">Cajun Chicken
+                    <input type="radio" name="topping" value="Cajun Shrimp">Cajun Shrimp
+            
+                        <br><br>
+
+                    <fieldset>
+                        <legend><span>PIZZA CRUST</span></legend>
+                        <input type="radio" name="Crust" value="Thin Crust">Thin Crust
+                        <input type="radio" name="Crust" value="Hand Tossed">Hand Tossed
+                        <input type="radio" name="Crust" value="Stuffed Crust">Stuffed Crust
+                        <input type="radio" name="Crust" value="Gluten Free Crust">Gluten Free Crust
+                    <p>Garlic and Parmesan on crust?</p>
+                    <select name=>
+                        <option value="yes">yes</option>
+                        <option value="no">no</option>
+            
+                    </select>
+                    <p>Half or Whole</p>
+                    <select name="Half or Whole">
+                        <option></option>
+                        <option value="Half">Half</option>
+                        <option value="Whole">Whole</option>
+                    </select>
+                    </fieldset>
+
+                        <br><br>
+
+                    <fieldset>
+                        <legend><span>PIZZA SAUCE</span></legend>
+                        <label>Sauce Choices:
+                            <select name="PIZZA SAUCE">
+                                <option value="-----">----------</option>
+                                <option value="Tomato">Tomato</option>
+                                <option value="Alfredo">Alfredo</option>
+                                <option value="Vegan White Sauce">Vegan White Sauce</option>
+                                <option value="BBQ">BBQ</option>
+                                <option value="Buffalo">Buffalo</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                                <br><br>
+
+                    <fieldset>
+                        <legend><span>PIZZA CHEESE</span></legend>
+                        <label>Cheese Choices:
+                            <select name="PIZZA CHEESE">
+                                <option value="-----">----------</option>
+                                <option value="Feta">Feta</option>
+                                <option value="provolone">Provolone</option>
+                                <option value="Goat Cheese">Goat Cheese</option>
+                                <option value="Cheddar">Cheddar</option>
+                                <option value="Mozzarella">Mozzarella</option>
+                                <option value="Parmesan">Parmesan</option>
+                            </select>
+                        </label>
+                        <input type="checkbox" name="Cheese" value="Extra Cheese">Extra Cheese
+                        <input type="checkbox" name="Cheese" value="Vegan Cheese">Vegan Cheese
+                        <input type="checkbox" name="Cheese" value="No Cheese">No Cheese
+
+                    </fieldset>
+                    <fieldset>
+            
+                        <legend><span>TOPPINGS</span></legend>
+                <table id="toppings">
+                    <tr class="pit">
+                        <td class="M"><input type="checkbox" name="Toppings" value="Spinach">Spinach</td>
+                        <td class="M"><input type="radio" name="2" value="left">Left</td>
+                        <td class="M"><input type="radio" name="2" value="right">Right</td>
+                        <td class="M"><input type="radio" name="2" value="whole">Whole</td>
+                        
+                    </tr>
+            
+                    
+            
+                    <tr class="pit">
+                        <td class="M"><input type="checkbox" name="Toppings" value="Mushrooms">Mushrooms</td>
+                        <td class="M"><input type="radio" name="on" value="left">Left</td>
+                        <td class="M"><input type="radio" name="on" value="right">Right</td>
+                        <td class="M"><input type="radio" name="on" value="whole">Whole</td>
+                        
+                    </tr>
+            
+                    <tr class="pit">
+                        <td class="M"><input type="checkbox" name="Toppings" value="Onions">Onions</td>
+                        <td class="M"><input type="radio" name="n" value="left">Left</td>
+                        <td class="M"><input type="radio" name="n" value="right">Right</td>
+                        <td class="M"><input type="radio" name="n" value="whole">Whole</td>
+                    </tr>
+            
+                    <tr class="pit">
+            
+                        <td class="M"><input type="checkbox" name="Toppings" value="Cherry Tomatoes">Cherry Tomatoes</td>
+                        <td class="M"><input type="radio" name="t" value="left">Left</td>
+                        <td class="M"><input type="radio" name="t" value="right">Right</td>
+                        <td class="M"><input type="radio" name="t" value="whole">Whole</td>
+                    </tr>
+            
+                    <tr class="pit">
+            
+                        <td><input type="checkbox" name="Toppings" value="Sweet Peppers">Sweet Peppers</td>
+                            <td class="M"><input type="radio" name="nice" value="left">Left</td>
+                            <td class="M"><input type="radio" name="nice" value="right">Right</td>
+                            <td class="M"><input type="radio" name="nice" value="whole">Whole</td>
+                    </tr>
+            
+                    
+            
+                    <tr class="pit">
+                        <td><input type="checkbox" name="Toppings" value="Black Olives">Black Olives</td>
+                        <td class="M"><input type="radio" name="ice" value="left">Left</td>
+                        <td class="M"><input type="radio" name="ice" value="right">Right</td>
+                        <td class="M"><input type="radio" name="ice" value="whole">Whole</td>
+            
+                    </tr>
+                
+            
+                    <tr class="pit">
+                        <td><input type="checkbox" name="Toppings" value="Jack Fruit">Jack Fruit</td>
+                    
+                        <td class="M"><input type="radio" name="one" value="left">Left</td>
+                        <td class="M"><input type="radio" name="one" value="right">Right</td>
+                        <td class="M"><input type="radio" name="one" value="whole">Whole</td>
+                    </tr>
+            
+                    <tr class="pit">
+                
+                        <td class="M"><input type="checkbox" name="Toppings" value="Jalapenos">Jalapenos</td>
+                        <td class="M"><input type="radio" name="two" value="left">Left</td>
+                        <td class="M"><input type="radio" name="two" value="right">Right</td>
+                        <td class="M"><input type="radio" name="two" value="whole">Whole</td>
+                    </tr>
+            
+                    <tr class="pit">
+                        <td class="M"><input type="checkbox" name="Toppings" value="Artichokes">Artichokes</td>
+                        <td class="M"><input type="radio" name="three" value="left">Left</td>
+                        <td class="M"><input type="radio" name="three" value="right">Right</td>
+                        <td class="M"><input type="radio" name="three" value="whole">Whole</td>
+                    </tr>
+            
+                </table>
+                
+                <br><textarea name="comments" placeholder="Special Instructions"></textarea>
+                
+                <table>
+            
+                    <tr>
+                        <th></th><th scope="col">Meat</th><th></th>
+                    </tr>
+                    <tr class="pit">
+                        <td><input type="checkbox" name="Toppings" value="Pepperoni">Pepperoni</td>
+                        <td class="M"><input type="radio" name="button" value="left">Left</td>
+                        <td class="M"><input type="radio" name="button" value="right">Right</td>
+                        <td class="M"><input type="radio" name="button" value="whole">Whole</td> 
+                        
+                    </tr>
+                    <tr class="pit">
+                        <td class="M"><input type="checkbox" name="Toppings" value="Sausage">Sausage</td>
+                        <td class="M"><input type="radio" name="butto" value="Left">Left
+                        <td class="M"><input type="radio" name="butto" value="Right">Right
+                        <td class="M"><input type="radio" name="butto" value="Whole">Whole
+                        
+                    </tr>
+                    <tr class="pit">
+                        <td class="M"><input type="checkbox" name="Toppings" value="Bacon">Bacon</td><br>
+                        <td class="M"><input type="radio" name="bu" value="left">Left</td>
+                        <td class="M"><input type="radio" name="bu" value="right">Right</td>
+                        <td class="M"><input type="radio" name="bu" value="whole">Whole</td>
+                        
+                    </tr>
+                    <tr class="pit">
+                        <td class="M"><input type="checkbox" name="Toppings" value="Chicken">Chicken</td>
+                        <td class="M"><input type="radio" name="b" value="left">Left</td>
+                        <td class="M"><input type="radio" name="b" value="right">Right</td>
+                        <td class="M"><input type="radio" name="b" value="whole">Whole</td>
+                        
+                    </tr>
+                    <tr class="pit">
+                        <td class="M"><input type="checkbox" name="Toppings" value="Beef">Beef</td><br>
+                        <td class="M"><input type="radio" name="butt" value="half">Left</td>
+                        <td class="M"><input type="radio" name="butt" value="half">Left</td>
+                        <td class="M"><input type="radio" name="butt" value="whole">Whole</td>
+                    </tr>
+                    <tr class="pit">
+                        <td class="M"><input type="checkbox" name="Toppings" value="Philly Steak">Philly Steak</td><br>
+                        <td class="M"><input type="radio" name="but" value="left">Left</td>
+                        <td class="M"><input type="radio" name="but" value="right">Right</td>
+                        <td class="M"><input type="radio" name="but" value="whole">Whole</td>
+                        
+                    </tr>
+                    <tr class="pit">
+                        <td class="M"><input type="checkbox" name="Toppings" value="Anchovies">Anchovies</td><br>
+                        <td class="M"><input type="radio" name="ton" value="left">Left</td>
+                        <td class="M"><input type="radio" name="ton" value="Right">Right</td>
+                        <td class="M"><input type="radio" name="ton" value="whole">Whole</td>
+                    </tr>
+                        
+            
+            
+                </table>
+                    <br><textarea name="comments" placeholder="Special Instructions"></textarea>
+                    
+            
+            
+                      </fieldset>
+
+                    
+                    <img src="../images/sides.jpg" alt="sides" title="Pizza sides" width="600" height="200">
+                    <br>
+                    <fieldset>
+                        <legend><span>SIDES</span></legend>
+                        <input type="checkbox" name="Sides" value="Cheese Bread">Cheese Bread
+                        <input type="checkbox" name="Sides" value="special sal">Specialty Salad
+                        <input type="checkbox" name="Sides" value="Salad">House Salad
+                        <input type="checkbox" name="Sides" value="Pasta">Pasta
+                        <input type="checkbox" name="Sides" value="Jalapeno Poppers">Jalapeno Poppers
+                        <input type="checkbox" name="Sides" value="Fried Pickles">Fried Pickles
+                        <input type="checkbox" name="Sides" value="Fried Cheese Curds">Fried Cheese Curds
+
+                        <br><hr>
+                        <legend><span>WINGS</span></legend>
+                        <input type="checkbox" name="Wings" value="Boneless">Boneless
+                        <input type="checkbox" name="Wings" value="Traditional">Traditional
+                        <input type="checkbox" name="Wings" value="Vegan">Vegan (Cauliflower)
+                        <input type="radio" name="Count" value="10 Wings">10 Wings</option>
+                        <input type="radio" name="Count" value="20 Wings">20 Wings</option>
+                        <hr>
+                        <legend><span>WINGS SAUCE</span></legend>
+                        <input type="radio" name="Wings" value="Honey BBQ">Honey BBQ
+                        <input type="radio" name="Wings" value="Buffalo">Buffalo
+                        <input type="radio" name="Wings" value="Lemon Pepper">Lemon Pepper
+                        <input type="radio" name="Wings" value="Teriyaki">Teriyaki
+                        <input type="radio" name="Wings" value="Sweet Chili">Sweet Chili
+                        <input type="radio" name="Wings" value="Mango Habanero">Mango Habanero
+                    </fieldset>
+
+                        <br>
+                    <fieldset>
+                        <legend><span>DRINKS</span></legend>
+                        <input type="checkbox" name="Drinks" value="Ale">Ginger Ale<img src="../images/ginger.jpg" alt="ale" title="homemade ginger ale" width="150" height="100">
+                        <sp></sp>
+                        <input type="checkbox" name="Drinks" value="Lemonade">Lemonade
+                        <img src="../images/lemonades.jpg" alt="lemonades" title="lemonades" width="175" height="100">
+            
+                        <input type="checkbox" name="Drinks" value="Passion Fruit">Passion Fruit<img src="../images/passion fruit.jpg" alt="passion fruit" title="passion fruit" width="175" height="100">
+                        <input type="checkbox" name="Drinks" value="Sweet Tea">Sweet Tea<img src="../images/sweet tea2.jpg" alt="sweet tea" title="sweet tea" width="150" height="100">
+                        <br>
+                        <input type="checkbox" name="Drinks" value="Soda">Soda<img src="../images/drinks.jpg" alt="soda" title="different soda brands " width="130" height="100">
+                        <input type="radio" name="flavor" value="Coke">Coke
+                        <input type="radio" name="flavor" value="Pepsi">Sprite 
+                        <input type="radio" name="flavor" value="Dr. Pepper">Dr. Pepper
+                        <input type="radio" name="flavor" value="Mountain Dew">Mountain Dew
+                    </fieldset>
+
+                        <br>
+        
+                    
+
+                </main>   
+                <br><br>
+                    <input type="submit" value="Add to Cart"id="link">
+            </form> 
+        
+            <br><br><br>
+            <link href="../styles.css" rel="stylesheet" type="text/css">
+        </body>
+</html>

@@ -1,0 +1,247 @@
+/*.one{background-color:gray;}
+
+#pink{color:lavender;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+
+#bold,#loud{font-weight:900; text-transform:uppercase}
+this is the end of practice and start of the online pizza css*/
+
+
+
+/*start of about me page*/
+
+#test{text-align:center;
+    font-family: "Gwendolyn", serif;
+    font-weight: 900; width:400px;
+    font-style: normal;
+    border-style:ridge; border-width:15px;
+    box-shadow: 4px 6px 3px 5px;
+    margin-left:400px;
+}
+
+
+
+#para{font-size:25px;
+    line-height:1.4em;
+}
+
+#x{margin-top:80%;}
+
+#legacy{background-color:rgb(58, 55, 55);color:rgb(12, 12, 61);font-family: "Lobster Two", serif;
+    font-weight: 900;
+    font-style: italic;
+    word-spacing:3px;
+    text-align:justify;
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+    url('images/petals.jpg');
+    background-size: cover;
+
+    }
+
+
+
+ul{margin-bottom:25px;font-size: 25px;color:black;
+    list-style-type:circle
+
+}
+
+
+
+.lo a:link{color:rgb(29, 85, 12);}
+.lo a:hover{color:red;}
+
+.class a:link{color:rgb(22, 82, 7);}
+.class a:hover{color:rgb(226, 43, 73);}
+.class{font-size: 30px;}
+
+
+
+
+
+/*Pizzas Page begins here*/
+
+body{background-color:rgb(43, 40, 40);color:rgb(212, 152, 22);
+    cursor:pointer;
+    opacity:0.1px;
+
+}
+input{cursor:pointer;
+}
+
+#toppings{font-family:Verdana, Geneva, Tahoma, sans-serif;margin-left:200px;
+    box-shadow:35px;
+    color:rgb(212, 152, 22);
+    border-radius:35px;
+    border-style:dashed;
+    border-width:10px;
+    text-align:center;
+    font-size: 25px;
+    font-weight: 900;
+    font-style: italic;
+    
+    
+
+
+}
+
+#toppings td{border-style:groove; border-radius:28px;
+    width:200px; margin:50px;padding:5px;
+    text-align:center;
+    
+
+}
+  
+.pit{font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:50px;
+}
+    
+
+#pizza{font-size: 400%;}
+
+.field{width:400px;}
+
+fieldset legend{color:bisque; font-size:x-large}
+
+#legend{color:bisque; font-size:x-large;
+        padding:20px;
+        margin-left:450px
+
+}
+
+.pp1{cursor:progress;background-color:rgb(212, 152, 22);font-size:22px;margin-left:200px;
+    border-radius:0px 0px 35px 35px
+
+}
+
+
+/*online pizza page*/
+
+
+body a:link{color:rgb(212, 152, 22)
+}
+body a:hover{color:white;
+}
+body a:visited{color:aqua;}
+
+#up{font-size:30px;z-index:10;}
+#up a:hover{color:white;
+            
+}
+
+.blue{color:white;
+    border-style:outset;
+    border-width:20px;
+    margin:0px;
+    border-color:rgba(255, 255, 255, 0.5);
+}
+
+#lab{position:fixed;
+    top:0%;
+    left:85%;
+}
+
+.label{color:blanchedalmond;}
+
+#sip{letter-spacing:10px;
+    position:absolute;
+    top:1%;
+    left:25%;
+    margin:15px 20px 0px 30px;
+    border-style:dotted;
+    font-size:40px;
+
+}
+
+#A{margin-top:0px;
+    border-style:ridge;
+    border-width:10px;
+    border-radius:5px 100px 10px 100px; 
+    text-align: center;
+    margin-left:440px;
+    margin-right:450px;
+}
+
+#pic{opacity:0.2;
+    position:static;
+    top:0%;
+    width:88%;
+    height:500px;
+    margin-top:0%;
+    padding-top:0%;
+    z-index:-1;
+
+}
+
+.pix{float:left;
+    width:150px;
+    margin:10px;
+
+
+}
+
+#bel{
+    
+    right:5%;
+    color:rgb(212, 152, 22);
+    font-size:25px;
+    margin-right:3px;
+}
+
+#pi1{float:left;
+    width:200px;
+    margin:30px;
+    height:200px;
+    border-style:ridge;
+
+}
+
+#pi2{float:center;
+    width:200px;
+    margin:30px;
+    height:200px;
+    border-style:ridge;
+
+}
+
+#pi3{position:absolute;
+    width:200px;
+    margin:30px;
+    height:200px;
+    border-style:ridge;
+
+}
+#temp{clear:left;
+       float:right;
+       margin-right:80px;
+}
+
+#B{border-style:ridge;
+    border-width:8px;
+    border-radius:10px 100px 10px 100px;
+    margin-left:75px;
+    margin-right:700px;
+    padding:10px;
+    font-size:35px;
+    font-weight:800;
+    font-style:italic;
+    box-shadow: 4px 6px 3px 5px;
+    
+    text-align:center;
+}
+
+
+footer{float:right;
+    width:250px;
+    margin-left:50px;
+
+}
+
+
+/*start of blank 2 page*/
+
+#bl{background-color:darkblue;
+    cursor:grabbing;
+    opacity:0.1px;
+
+}
+
